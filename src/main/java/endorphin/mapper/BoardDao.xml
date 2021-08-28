@@ -3,11 +3,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="endorphin.dao.BoardDao">
-    <resultMap id="boardMap" type="Board">
-        <id property="boardId" column="board_id"/>
-        <result property="boardName" column="board_name"/>
-        <result property="boardDesc" column="board_desc"/>
-        <result property="boardPostNum" column="board_post_num"/>
+        <resultMap id="boardMap" type="Board">
+            <id property="boardId" column="board_id"/>
+            <result property="boardName" column="board_name"/>
+            <result property="boardDesc" column="board_desc"/>
+            <result property="boardPostNum" column="board_post_num"/>
     </resultMap>
 
     <resultMap id="boardAndPostMap" type="Board">

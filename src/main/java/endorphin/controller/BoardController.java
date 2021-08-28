@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 @RequestMapping(value = "/board")
 public class BoardController {
-    private final BoardService boardService;
+    private final BoardSerdvice boardService;
 
     @Autowired
     public BoardController(BoardService boardService) {
